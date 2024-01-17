@@ -12,7 +12,7 @@ We summarize related research papers and resources for neural question generatio
       - [Encoder-Decoder Transformer-based](#encoder-decoder-transformer-based)
       - [Decoder-only Transformer-based](#decoder-only-transformer-based)
   - [Unstructured QG](#unstructured-qg)
-    - [Traditional Seq2Seq Models](#traditional-seq2seq-models)
+    - [Traditional Seq2Seq Models](#example1)
       - [RNN-based](#rnn-based)
       - [Transformer-based](#transformer-based)
     - [Graph-based Models](#graph-based-models)
@@ -44,6 +44,7 @@ We summarize related research papers and resources for neural question generatio
 #### Decoder-only Transformer-based
 1. **Prompting Large Language Models with Chain-of-Thought for Few-Shot Knowledge Base Question Generation.** *Yuanyuan Liang and Jianing Wang and Hanlun Zhu and Lei Wang and Weining Qian and Yunshi Lan*. EMNLP, 2023. [[Paper]](https://arxiv.org/pdf/2310.08395.pdf)
 ## Unstructured QG
+<a id="example1"></a>
 ### Traditional Seq2Seq Models
 #### RNN-based
 1. **Learning to Ask: Neural Question Generation for Reading Comprehension.** *Du, Xinya and Shao, Junru and Cardie, Claire*. ACL, 2017. [[Paper]](https://aclanthology.org/P17-1123.pdf) [[Code]](https://github.com/xinyadu/nqg)
