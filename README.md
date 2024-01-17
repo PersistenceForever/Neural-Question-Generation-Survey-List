@@ -1,8 +1,18 @@
 # Neural-Question-Generation-Survey-List
 We summarize related research papers and resources for neural question generation (Neural QG). We categorize Neural QG into structured QG and unstructured QG, as illustrated in the subsequent figure.
 <img src="https://github.com/PersistenceForever/Neural-Question-Generation-Survey-List/blob/main/Taxonomy%20of%20neural%20QG.png" with="10">
+## Table of Contents
 - Neural QG
   - [Structured QG](#structured-qg)
+    - [Traditional Seq2Seq Models](#traditional-seq2seq-models)
+      - [RNN-based](#rnn-based)
+      - [Transformer-based](#transformer-based)
+    - [Graph2Seq Models](#graph2seq-models)
+    - [Pre-trained Seq2Seq Models](#pre-trained-seq2seq-models)
+      - [Encoder-Decoder Transformer-based](#encoder-decoder-transformer-based)
+      - [Decoder-only Transformer-based](#decoder-only-transformer-based)
+  - [Unstructured QG](#unstructured-qg)
+    - [Traditional Seq2Seq Models](#traditional-seq2seq-models)
 ## Structured QG
 ### Traditional Seq2Seq Models
 #### RNN-based
