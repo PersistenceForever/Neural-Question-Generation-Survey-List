@@ -12,11 +12,11 @@ We summarize related research papers and resources for neural question generatio
       - [Encoder-Decoder Transformer-based](#encoder-decoder-transformer-based)
       - [Decoder-only Transformer-based](#decoder-only-transformer-based)
   - [Unstructured QG](#unstructured-qg)
-    - [Traditional Seq2Seq Models](#example1)
-      - [RNN-based](#rnn-based)
-      - [Transformer-based](#transformer-based)
+    - [Traditional Seq2Seq Models](#traditional-seq2seq-models2)
+      - [RNN-based](#rnn-based2)
+      - [Transformer-based](#transformer-based2)
     - [Graph-based Models](#graph-based-models)
-    - [Pre-trained Seq2Seq Models](#pre-trained-seq2seq-models)
+    - [Pre-trained Seq2Seq Models](#pre-trained-seq2seq-models2)
     - [Visual2Seq Models](#visual2seq-models)
       - [CNN-based](#cnn-based)
       - [GNN-based](#gnn-based)
@@ -44,8 +44,9 @@ We summarize related research papers and resources for neural question generatio
 #### Decoder-only Transformer-based
 1. **Prompting Large Language Models with Chain-of-Thought for Few-Shot Knowledge Base Question Generation.** *Yuanyuan Liang and Jianing Wang and Hanlun Zhu and Lei Wang and Weining Qian and Yunshi Lan*. EMNLP, 2023. [[Paper]](https://arxiv.org/pdf/2310.08395.pdf)
 ## Unstructured QG
-<a id="example1"></a>
+<a id="traditional-seq2seq-models2"></a>
 ### Traditional Seq2Seq Models
+<a id="rnn-based2"></a>
 #### RNN-based
 1. **Learning to Ask: Neural Question Generation for Reading Comprehension.** *Du, Xinya and Shao, Junru and Cardie, Claire*. ACL, 2017. [[Paper]](https://aclanthology.org/P17-1123.pdf) [[Code]](https://github.com/xinyadu/nqg)
 2. **Answer-focused and position-aware neural question generation.** *Sun, Xingwu and Liu, Jing and Lyu, Yajuan and He, Wei and Ma, Yanjun and Wang, Shi*. EMNLP, 2018. [[Paper]](https://aclanthology.org/D18-1427.pdf)
@@ -54,6 +55,7 @@ We summarize related research papers and resources for neural question generatio
 5. **Improving Question Generation With to the Point Context.** *Jingjing Li and Yifan Gao and Lidong Bing and Irwin King and Michael R. Lyu*. EMNLP, 2019. [[Paper]](https://aclanthology.org/D19-1317.pdf)
 6. **Improving Neural Question Generation Using Answer Separation.** *Yanghoon Kim and Hwanhee Lee and Joongbo Shin and Kyomin Jung*. AAAI, 2019. [[Paper]](https://arxiv.org/pdf/1809.02393.pdf)
 7. **Capturing Greater Context for Question Generation.** *Luu Anh Tuan and Darsh J. Shah and Regina Barzilay*. AAAI, 2020. [[Paper]](https://arxiv.org/pdf/1910.10274.pdf)
+<a id="transformer-based2"></a>
 #### Transformer-based
 1. **Cross-Lingual Training for Automatic Question Generation.** *Vishwajeet Kumar and Nitish Joshi and Arijit Mukherjee and Ganesh Ramakrishnan and Preethi Jyothi*. ACL, 2019. [[Paper]](https://aclanthology.org/P19-1481.pdf) [[Code]](https://github.com/vishwajeet93/clqg)
 2. **Neural question generation with answer pivot.** *Wang, Bingning and Wang, Xiaochuan and Tao, Ting and Zhang, Qi and Xu, Jingfang*. AAAI, 2020. [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/6449)
@@ -65,6 +67,7 @@ We summarize related research papers and resources for neural question generatio
 4. **Iterative GNN-based decoder for question generation.** *Fei, Zichu and Zhang, Qi and Zhou, Yaqian*. EMNLP, 2021. [[Paper]](https://aclanthology.org/2021.emnlp-main.201.pdf) [[Code]](https://github.com/sion-zcfei/IGND)
 5. **CQG: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation.** *Zichu Fei and Qi Zhang and Tao Gui and Di Liang and Sirui Wang and Wei Wu and Xuanjing Huang*. ACL, 2022. [[Paper]](https://aclanthology.org/2022.acl-long.475.pdf) [[Code]](https://github.com/sion-zcfei/CQG)
 6. **Modeling What-to-ask and How-to-ask for Answer-unaware Conversational Question Generation.** *Xuan Long Do and Bowei Zou and Shafiq R. Joty and Anh Tran Tai and Liangming Pan and Nancy F. Chen and Ai Ti Aw*. ACL, 2023. [[Paper]](https://arxiv.org/pdf/2305.03088.pdf) [[Code]](https://github.com/dxlong2000/SG-CQG)
+<a id="pre-trained-seq2seq-models2"></a>
 ### Pre-trained Seq2Seq Models
 1. **A Recurrent BERT-based Model for Question Generation.** *Ying-Hong Chan and Yao-Chung Fan*. MRQA@EMNLP, 2019. [[Paper]](https://aclanthology.org/D19-5821.pdf)
 2. **Unified Language Model Pre-training for Natural Language Understanding and Generation.** *Dong, Li and Yang, Nan and Wang, Wenhui and Wei, Furu and Liu, Xiaodong and Wang, Yu and Gao, Jianfeng and Zhou, Ming and Hon, Hsiao-Wuen*. NeurIPS, 2019. [[Paper]](https://arxiv.org/pdf/1905.03197.pdf) [[Code]](https://github.com/microsoft/unilm)
