@@ -1,9 +1,9 @@
 # Neural Question Generation Survey
-We summarize related research papers and resources for neural question generation (Neural QG). We categorize Neural QG into structured QG and unstructured QG, as illustrated in the subsequent figure.
+We summarize related research papers and resources for neural question generation (NQG). We categorize NQG into structured NQG and unstructured NQG, as illustrated in the subsequent figure.
 <img src="https://github.com/PersistenceForever/Neural-Question-Generation-Survey-List/blob/main/Taxonomy%20of%20neural%20QG.png" with="10">
 ## Table of Contents
-- Neural QG Models
-  - [Structured QG](#structured-qg-models)
+- NQG Models
+  - [Structured NQG](#structured-nqg-models)
     - [Traditional Seq2Seq Models](#traditional-seq2seq-models)
       - [RNN-based](#rnn-based)
       - [Transformer-based](#transformer-based)
@@ -11,7 +11,7 @@ We summarize related research papers and resources for neural question generatio
     - [Pre-trained Seq2Seq Models](#pre-trained-seq2seq-models)
       - [Encoder-Decoder Transformer-based](#encoder-decoder-transformer-based)
       - [Decoder-only Transformer-based](#decoder-only-transformer-based)
-  - [Unstructured QG](#unstructured-qg-models)
+  - [Unstructured NQG](#unstructured-nqg-models)
     - [Traditional Seq2Seq Models](#traditional-seq2seq-models2)
       - [RNN-based](#rnn-based2)
       - [Transformer-based](#transformer-based2)
@@ -22,7 +22,11 @@ We summarize related research papers and resources for neural question generatio
       - [GNN-based](#gnn-based)
       - [Generative Networks-based](#generative-networks-based)
 - Benchmark Datasets
-## Structured QG Models
+  - [Knowledge Base-based Datasets](#knowledge-base-based-datasets)
+  - [Text-based Datasets](#text-based-datasets)
+  - [Visual-based Datasets](#visual-based-datasets)
+  
+## Structured NQG Models
 ### Traditional Seq2Seq Models
 #### RNN-based
 1. **Generating natural language question-answer pairs from a knowledge graph using a RNN based question generation model.** *Sathish Reddy Indurthiand Dinesh Raghu and Mitesh M Khapra and Sachindra Joshi*. EACL, 2017. [[Paper]](https://aclanthology.org/E17-1036.pdf)
@@ -44,7 +48,7 @@ We summarize related research papers and resources for neural question generatio
 5. **Diversifying Question Generation over Knowledge Base via External Natural Questions.** *Shasha Guo and Jing Zhang and Xirui Ke and Cuiping Li and Hong Chen*. Arxiv, 2023. [[Paper]](https://arxiv.org/pdf/2309.14362.pdf)
 #### Decoder-only Transformer-based
 1. **Prompting Large Language Models with Chain-of-Thought for Few-Shot Knowledge Base Question Generation.** *Yuanyuan Liang and Jianing Wang and Hanlun Zhu and Lei Wang and Weining Qian and Yunshi Lan*. EMNLP, 2023. [[Paper]](https://arxiv.org/pdf/2310.08395.pdf)
-## Unstructured QG Models
+## Unstructured nQG Models
 <a id="traditional-seq2seq-models2"></a>
 ### Traditional Seq2Seq Models
 <a id="rnn-based2"></a>
@@ -90,3 +94,16 @@ We summarize related research papers and resources for neural question generatio
 #### Generative Networks-based
 1. **Information Maximizing Visual Question Generation.** *Ranjay Krishna and Michael S. Bernstein and Li Fei-Fei*. CVPR, 2019. [[Paper]](https://arxiv.org/pdf/1903.11207.pdf)
 2. **C3VQG: category consistent cyclic visual question generation.** *Shagun Uppal and Anish Madan and Sarthak Bhagat and Yi Yu and Rajiv Ratn Shah*. ACM MM Asia, 2020. [[Paper]](https://dl.acm.org/doi/10.1145/3444685.3446302) [[Code]](https://github.com/sarthak268/C3VQG-official)
+## Knowledge Base-based Datasets
+1. **WebQuestions.** Introduced by *Vishwajeet Kumar and Yuncheng Hua and Ganesh Ramakrishnan and Guilin Qi and Lianli Gao and Yuan-Fang Li* in **Difficulty-controllable multi-hop question generation from knowledge graphs.** ISWC, 2019. [[Paper]](https://dl.acm.org/doi/10.1007/978-3-030-30793-6_22) [[Source]](https://github.com/liyuanfang/mhqg)
+2. **PathQuestions.** Introduced by *Mantong Zhou and Minlie Huang and Xiaoyan Zhu* in **An Interpretable Reasoning Network for Multi-Relation Question Answering.** COLING, 2018. [[Paper]](https://aclanthology.org/C18-1171.pdf) [[Source]](https://github.com/zmtkeke/IRN)
+3. **GrailQA.** Introduced by *Yu Gu and Sue Kase and Michelle Vanni and Brian M. Sadler and Percy Liang and Xifeng Yan and Yu Su* in **Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases.** WWW, 2021. [[Paper]](https://arxiv.org/pdf/2011.07743.pdf) [[Source]](https://dki-lab.github.io/GrailQA/)
+## Text-based Datasets
+1. **SQuAD.** Introduced by *Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang* in **SQuAD: 100, 000+ Questions for Machine Comprehension of Text.** EMNLP, 2016. [[Paper]](https://arxiv.org/pdf/1606.05250.pdf) [[Source]](https://stanford-qa.com)
+2. **MS MARCO.** Introduced by *Tri Nguyen and Mir Rosenberg and Xia Song and Jianfeng Gao and Saurabh Tiwary and Rangan Majumder and Li Deng* in **MS MARCO: A Human Generated MAchine Reading COmprehension Dataset.** NeurIPS, 2016. [[Paper]](https://arxiv.org/pdf/1611.09268.pdf) [[Source]](https://microsoft.github.io/msmarco/)
+3. **NewsQA.** Introduced by *Adam Trischler and Tong Wang and Xingdi Yuan and Justin Harris and Alessandro Sordoni and Philip Bachman and Kaheer Suleman* in **NewsQA: A Machine Comprehension Dataset.** ACL, 2017. [[Paper]](https://aclanthology.org/W17-2623.pdf) [[Source]](https://www.microsoft.com/en-us/research/project/newsqa-dataset/)
+4. **HotpotQA.** Introduced by *Zhilin Yang and Peng Qi and Saizheng Zhang and Yoshua Bengio and William W. Cohen and Ruslan Salakhutdinov and Christopher D. Manning* in **HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering.** EMNLP, 2018. [[Paper]](https://arxiv.org/pdf/1809.09600.pdf) [[Source]](https://hotpotqa.github.io/)
+5. **CoQA.** Introduced by *Siva Reddy and Danqi Chen and Christopher D. Manning* in **CoQA: A Conversational Question Answering Challenge.** TACL, 2019. [[Paper]](https://aclanthology.org/Q19-1016.pdf) [[Source]](https://stanfordnlp.github.io/coqa/)
+## Visual-based Datasets
+1. **VQA.** Introduced by *Stanislaw Antol and Aishwarya Agrawal and Jiasen Lu and Margaret Mitchell and Dhruv Batra and C. Lawrence Zitnick and Devi Parikh* in **VQA: Visual Question Answering.** ICCV, 2015. [[Paper]](https://arxiv.org/pdf/1505.00468.pdf) [[Source]](https://visualqa.org/)
+2. **VQG COCO** Introduced by *Nasrin Mostafazadeh and Ishan Misra and Jacob Devlin and Margaret Mitchell and Xiaodong He and Lucy Vanderwende* in **Generating Natural Questions About an Image.** ACL, 2016. [[Paper]](https://arxiv.org/pdf/1603.06059.pdf) [[Source]](https://www.microsoft.com/en-us/download/details.aspx?id=53670)
