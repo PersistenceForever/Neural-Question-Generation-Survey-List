@@ -1,6 +1,8 @@
 # Neural-Question-Generation-Survey-List
 We summarize related research papers and resources for neural question generation (Neural QG). We categorize Neural QG into structured QG and unstructured QG, as illustrated in the subsequent figure.
 <img src="https://github.com/PersistenceForever/Neural-Question-Generation-Survey-List/blob/main/Taxonomy%20of%20neural%20QG.png" with="10">
+- Neural QG
+  - [Structured QG](#structured-qg)
 ## Structured QG
 ### Traditional Seq2Seq Models
 #### RNN-based
