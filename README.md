@@ -2,8 +2,8 @@
 We summarize related research papers and resources for neural question generation (Neural QG). We categorize Neural QG into structured QG and unstructured QG, as illustrated in the subsequent figure.
 <img src="https://github.com/PersistenceForever/Neural-Question-Generation-Survey-List/blob/main/Taxonomy%20of%20neural%20QG.png" with="10">
 ## Table of Contents
-- Neural QG
-  - [Structured QG](#structured-qg)
+- Neural QG Models
+  - [Structured QG](#structured-qg-models)
     - [Traditional Seq2Seq Models](#traditional-seq2seq-models)
       - [RNN-based](#rnn-based)
       - [Transformer-based](#transformer-based)
@@ -11,7 +11,7 @@ We summarize related research papers and resources for neural question generatio
     - [Pre-trained Seq2Seq Models](#pre-trained-seq2seq-models)
       - [Encoder-Decoder Transformer-based](#encoder-decoder-transformer-based)
       - [Decoder-only Transformer-based](#decoder-only-transformer-based)
-  - [Unstructured QG](#unstructured-qg)
+  - [Unstructured QG](#unstructured-qg-models)
     - [Traditional Seq2Seq Models](#traditional-seq2seq-models2)
       - [RNN-based](#rnn-based2)
       - [Transformer-based](#transformer-based2)
@@ -21,7 +21,8 @@ We summarize related research papers and resources for neural question generatio
       - [CNN-based](#cnn-based)
       - [GNN-based](#gnn-based)
       - [Generative Networks-based](#generative-networks-based)
-## Structured QG
+- Benchmark Datasets
+## Structured QG Models
 ### Traditional Seq2Seq Models
 #### RNN-based
 1. **Generating natural language question-answer pairs from a knowledge graph using a RNN based question generation model.** *Sathish Reddy Indurthiand Dinesh Raghu and Mitesh M Khapra and Sachindra Joshi*. EACL, 2017. [[Paper]](https://aclanthology.org/E17-1036.pdf)
@@ -43,7 +44,7 @@ We summarize related research papers and resources for neural question generatio
 5. **Diversifying Question Generation over Knowledge Base via External Natural Questions.** *Shasha Guo and Jing Zhang and Xirui Ke and Cuiping Li and Hong Chen*. Arxiv, 2023. [[Paper]](https://arxiv.org/pdf/2309.14362.pdf)
 #### Decoder-only Transformer-based
 1. **Prompting Large Language Models with Chain-of-Thought for Few-Shot Knowledge Base Question Generation.** *Yuanyuan Liang and Jianing Wang and Hanlun Zhu and Lei Wang and Weining Qian and Yunshi Lan*. EMNLP, 2023. [[Paper]](https://arxiv.org/pdf/2310.08395.pdf)
-## Unstructured QG
+## Unstructured QG Models
 <a id="traditional-seq2seq-models2"></a>
 ### Traditional Seq2Seq Models
 <a id="rnn-based2"></a>
