@@ -13,6 +13,14 @@ We summarize related research papers and resources for neural question generatio
       - [Decoder-only Transformer-based](#decoder-only-transformer-based)
   - [Unstructured QG](#unstructured-qg)
     - [Traditional Seq2Seq Models](#traditional-seq2seq-models)
+      - [RNN-based](#rnn-based)
+      - [Transformer-based](#transformer-based)
+    - [Graph-based Models](#graph-based-models)
+    - [Pre-trained Seq2Seq Models](#pre-trained-seq2seq-models)
+    - [Visual2Seq Models](#visual2seq-models)
+      - [CNN-based](#cnn-based)
+      - [GNN-based](#gnn-based)
+      - [Generative Networks-based](#generative-networks-based)
 ## Structured QG
 ### Traditional Seq2Seq Models
 #### RNN-based
