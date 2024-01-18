@@ -48,7 +48,7 @@ We summarize related research papers and resources for neural question generatio
 5. **Diversifying Question Generation over Knowledge Base via External Natural Questions.** *Shasha Guo and Jing Zhang and Xirui Ke and Cuiping Li and Hong Chen*. Arxiv, 2023. [[Paper]](https://arxiv.org/pdf/2309.14362.pdf)
 #### Decoder-only Transformer-based
 1. **Prompting Large Language Models with Chain-of-Thought for Few-Shot Knowledge Base Question Generation.** *Yuanyuan Liang and Jianing Wang and Hanlun Zhu and Lei Wang and Weining Qian and Yunshi Lan*. EMNLP, 2023. [[Paper]](https://arxiv.org/pdf/2310.08395.pdf)
-## Unstructured nQG Models
+## Unstructured NQG Models
 <a id="traditional-seq2seq-models2"></a>
 ### Traditional Seq2Seq Models
 <a id="rnn-based2"></a>
