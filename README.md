@@ -11,8 +11,8 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
       - [Transformer-based](#transformer-based)
     - [Graph2Seq Models](#graph2seq-models)
     - [Pre-trained Seq2Seq Models](#pre-trained-seq2seq-models)
-      - [Encoder-Decoder Transformer-based](#encoder-decoder-transformer-based)
-      - [Decoder-only Transformer-based](#decoder-only-transformer-based)
+      - [PLMs-based](#plms-based)
+      - [LLMs-based](#llms-based)
   - [Unstructured NQG](#unstructured-nqg-models)
     - [Traditional Seq2Seq Models](#traditional-seq2seq-models2)
       - [RNN-based](#rnn-based2)
@@ -42,13 +42,13 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 2. **Meta-CQG: A Meta-Learning Framework for Complex Question Generation over Knowledge Bases.** *Kun Zhang and Yunqi Qiu and Yuanzhuo Wang and Long Bai and Wei Li and Xuhui Jiang and Huawei Shen and Xueqi Cheng*. COLING, 2022. [[Paper]](https://aclanthology.org/2022.coling-1.533.pdf)
 3. **Toward Subgraph-Guided Knowledge Graph Question Generation With Graph Neural Networks.** *Yu Chen and Lingfei Wu and Mohammed J. Zaki*. TNNLS, 2023. [[Paper]](https://arxiv.org/pdf/2004.06015.pdf) [[Code]](https://github.com/hugochan/Graph2Seq-for-KGQG)
 ### Pre-trained Seq2Seq Models
-#### Encoder-Decoder Transformer-based 
+#### PLMs-based 
 1. **JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs.** *Pei Ke and Haozhe Ji and Yu Ran and Xin Cui and Liwei Wang and Linfeng Song and Xiaoyan Zhu and Minlie Huang*. ACL Findings, 2021. [[Paper]](https://arxiv.org/pdf/2106.10502.pdf) [[Code]](https://github.com/thu-coai/JointGT)
 2. **DSM: Question Generation over Knowledge Base via Modeling Diverse Subgraphs with Meta-learner.** *Shasha Guo and Jing Zhang and Yanling Wang and Qianyi Zhang and Cuiping Li and Hong Chen*. EMNLP, 2022. [[Paper]](https://aclanthology.org/2022.emnlp-main.281.pdf) [[Code]](https://github.com/PersistenceForever/DSM)
 3. **LFKQG: A Controlled Generation Framework with Local Fine-tuning for Question Generation over Knowledge Bases.** *Zichu Fei and Xin Zhou and Tao Gui and Qi Zhang and Xuanjing Huang*. COLING, 2022. [[Paper]](https://aclanthology.org/2022.coling-1.572.pdf) [[Code]](https://github.com/sion-zcfei/CQG)
 4. **AutoQGS: Auto-Prompt for Low-Resource Knowledge-based Question Generation from SPARQL.** *Guanming Xiong and Junwei Bao and Wen Zhao and Youzheng Wu and Xiaodong He*. CIKM, 2022. [[Paper]](https://arxiv.org/pdf/2208.12461.pdf) [[Code]](https://github.com/JimXiongGM/AutoQGS)
 5. **Diversifying Question Generation over Knowledge Base via External Natural Questions.** *Shasha Guo and Jing Zhang and Xirui Ke and Cuiping Li and Hong Chen*. Arxiv, 2023. [[Paper]](https://arxiv.org/pdf/2309.14362.pdf)
-#### Decoder-only Transformer-based
+#### LLMs-based
 1. **Prompting Large Language Models with Chain-of-Thought for Few-Shot Knowledge Base Question Generation.** *Yuanyuan Liang and Jianing Wang and Hanlun Zhu and Lei Wang and Weining Qian and Yunshi Lan*. EMNLP, 2023. [[Paper]](https://arxiv.org/pdf/2310.08395.pdf)
 ## Unstructured NQG Models
 <a id="traditional-seq2seq-models2"></a>
