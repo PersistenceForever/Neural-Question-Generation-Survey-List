@@ -23,6 +23,8 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
       - [CNN-based](#cnn-based)
       - [GNN-based](#gnn-based)
       - [Generative Networks-based](#generative-networks-based)
+  - [Hybrid NQG](#hybrid-nqg-models)
+    - [Pre-trained Models](#pre-trained-models)
 - Benchmark Datasets
   - [Knowledge Base-based Datasets](#knowledge-base-based-datasets)
   - [Text-based Datasets](#text-based-datasets)
@@ -96,6 +98,9 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 #### Generative Networks-based
 1. **Information Maximizing Visual Question Generation.** *Ranjay Krishna and Michael S. Bernstein and Li Fei-Fei*. CVPR, 2019. [[Paper]](https://arxiv.org/pdf/1903.11207.pdf)
 2. **C3VQG: category consistent cyclic visual question generation.** *Shagun Uppal and Anish Madan and Sarthak Bhagat and Yi Yu and Rajiv Ratn Shah*. ACM MM Asia, 2020. [[Paper]](https://dl.acm.org/doi/10.1145/3444685.3446302) [[Code]](https://github.com/sarthak268/C3VQG-official)
+## Hybrid NQG Models
+### Pre-trained Models
+1. **MultiQG-TI: Towards Question Generation from Multi-modal Sources.** *Zichao Wang and Richard G. Baraniuk*. ACL, 2023. [[Paper]](https://aclanthology.org/2023.bea-1.55.pdf) [[Code]](https://anonymous.4open.science/r/multimodal-QG-47F2/)
 ## Knowledge Base-based Datasets
 1. **WebQuestions.** Introduced by *Vishwajeet Kumar and Yuncheng Hua and Ganesh Ramakrishnan and Guilin Qi and Lianli Gao and Yuan-Fang Li* in **Difficulty-controllable multi-hop question generation from knowledge graphs.** ISWC, 2019. [[Paper]](https://dl.acm.org/doi/10.1007/978-3-030-30793-6_22) [[Data]](https://github.com/liyuanfang/mhqg) [[Code]](https://github.com/liyuanfang/mhqg)
 2. **PathQuestions.** Introduced by *Mantong Zhou and Minlie Huang and Xiaoyan Zhu* in **An Interpretable Reasoning Network for Multi-Relation Question Answering.** COLING, 2018. [[Paper]](https://aclanthology.org/C18-1171.pdf) [[Data]](https://github.com/zmtkeke/IRN) [[Code]](https://github.com/zmtkeke/IRN)
