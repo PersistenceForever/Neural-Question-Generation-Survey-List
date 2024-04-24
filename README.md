@@ -25,7 +25,7 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
       - [GNN-based](#gnn-based)
       - [Generative Networks-based](#generative-networks-based)
   - [Hybrid NQG](#hybrid-nqg-models)
-    - [Pre-trained Models](#pre-trained-models)
+    
 - Benchmark Datasets
   - [Knowledge Base-based Datasets](#knowledge-base-based-datasets)
   - [Text-based Datasets](#text-based-datasets)
