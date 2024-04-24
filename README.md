@@ -53,6 +53,7 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 5. **AutoQGS: Auto-Prompt for Low-Resource Knowledge-based Question Generation from SPARQL.** *Guanming Xiong and Junwei Bao and Wen Zhao and Youzheng Wu and Xiaodong He*. CIKM, 2022. [[Paper]](https://arxiv.org/pdf/2208.12461.pdf) [[Code]](https://github.com/JimXiongGM/AutoQGS)
 #### LLMs-based
 1. **Prompting Large Language Models with Chain-of-Thought for Few-Shot Knowledge Base Question Generation.** *Yuanyuan Liang and Jianing Wang and Hanlun Zhu and Lei Wang and Weining Qian and Yunshi Lan*. EMNLP, 2023. [[Paper]](https://arxiv.org/pdf/2310.08395.pdf)
+2. **SGSH: Stimulate Large Language Models with Skeleton Heuristics for Knowledge Base Question Generation.** *Shasha Guo and Lizi Liao and Jing Zhang and Yanling Wang and Cuiping Li and Hong Chen*. NAACL Findings, 2024. [[Paper]](https://arxiv.org/pdf/2404.01923.pdf) [[Code]](https://github.com/PersistenceForever/SGSH)
 ## Unstructured NQG Models
 <a id="traditional-seq2seq-models2"></a>
 ### Traditional Seq2Seq Models
