@@ -85,6 +85,7 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 6. **Graph augmented sequence-to-sequence model for neural question generation.** *Hui Ma and Jian Wang and Hongfei Lin and Bo Xu*. Appl. Intell., 2023. [[Paper]](https://dl.acm.org/doi/abs/10.1007/s10489-022-04260-2)
 <a id="pre-trained-seq2seq-models2"></a>
 ### Pre-trained Seq2Seq Models
+<a id="plms-based2"></a>
 #### PLMs-based
 1. **A Recurrent BERT-based Model for Question Generation.** *Ying-Hong Chan and Yao-Chung Fan*. MRQA@EMNLP, 2019. [[Paper]](https://aclanthology.org/D19-5821.pdf)
 2. **Unified Language Model Pre-training for Natural Language Understanding and Generation.** *Dong, Li and Yang, Nan and Wang, Wenhui and Wei, Furu and Liu, Xiaodong and Wang, Yu and Gao, Jianfeng and Zhou, Ming and Hon, Hsiao-Wuen*. NeurIPS, 2019. [[Paper]](https://arxiv.org/pdf/1905.03197.pdf) [[Code]](https://github.com/microsoft/unilm)
@@ -103,6 +104,7 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 15. **{SGCM:} Salience-Guided Context Modeling for Question Generation.** *Chuyao Ding and Yu Hong and Jianmin Yao*. LREC/COLING, 2024. [[Paper]](https://aclanthology.org/2024.lrec-main.1285.pdf)
 16. **Syntax-guided question generation using prompt learning.** *Zheheng Hou and Sheng Bi and Guilin Qi and Yuanchun Zheng and Zuomin Ren and Yun Li*. Neural Comput. Appl., 2024. [[Paper]](https://link.springer.com/article/10.1007/s00521-024-09421-7)
 17. **Zero-shot Clarifying Question Generation for Conversational Search.** *Zhenduo Wang and Yuancheng Tu and Corby Rosset and Nick Craswell and Ming Wu and Qingyao Ai*. WWWW, 2023. [[Paper]](https://arxiv.org/pdf/2301.12660)
+<a id="llms-based2"></a>
 #### LLMs-based
 1. **Towards Human-Like Educational Question Generation with Large Language Models.** *Zichao Wang and Jakob Valdez and Debshila Basu Mallick and Richard G. Baraniuk*. AIED, 2022. [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-11644-5_13)
 2. **How Teachers Can Use Large Language Models and Bloom's Taxonomy to Create Educational Quizzes.** *Sabina Elkins and Ekaterina Kochmar and Jackie C. K. Cheung and Iulian Serban*. EAAI, 2024. [[Paper]](https://arxiv.org/pdf/2401.05914)
@@ -120,6 +122,7 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 #### Generative Networks-based
 1. **Information Maximizing Visual Question Generation.** *Ranjay Krishna and Michael S. Bernstein and Li Fei-Fei*. CVPR, 2019. [[Paper]](https://arxiv.org/pdf/1903.11207.pdf)
 2. **C3VQG: category consistent cyclic visual question generation.** *Shagun Uppal and Anish Madan and Sarthak Bhagat and Yi Yu and Rajiv Ratn Shah*. ACM MM Asia, 2020. [[Paper]](https://dl.acm.org/doi/10.1145/3444685.3446302) [[Code]](https://github.com/sarthak268/C3VQG-official)
+<a id="plms-based3"></a>
 #### PLMs-based
 1. **Look before You Leap: Dual Logical Verification for Knowledge-based Visual Question Generation.** *Xumeng Liu and Wenya Guo and Ying Zhang and Xubo Liu and Yu Zhao and Shenglong Yu and Xiaojie Yuan*. LREC/COLING, 2024. [[Paper]](https://aclanthology.org/2024.lrec-main.943.pdf) [[Code]]( https://github.com/michelle19l/LV2-Net)
 2. **Knowledge-Guided Cross-Topic Visual Question Generation.** *Hongfei Liu and Guohua Wang and Jiayuan Xie and Jiali Chen and Wenhao Fang and Yi Cai*. LREC/COLING, 2024. [[Paper]](https://aclanthology.org/2024.lrec-main.861.pdf)
