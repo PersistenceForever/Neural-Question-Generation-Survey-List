@@ -106,6 +106,9 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 #### Generative Networks-based
 1. **Information Maximizing Visual Question Generation.** *Ranjay Krishna and Michael S. Bernstein and Li Fei-Fei*. CVPR, 2019. [[Paper]](https://arxiv.org/pdf/1903.11207.pdf)
 2. **C3VQG: category consistent cyclic visual question generation.** *Shagun Uppal and Anish Madan and Sarthak Bhagat and Yi Yu and Rajiv Ratn Shah*. ACM MM Asia, 2020. [[Paper]](https://dl.acm.org/doi/10.1145/3444685.3446302) [[Code]](https://github.com/sarthak268/C3VQG-official)
+#### PLMs-based
+1. **Look before You Leap: Dual Logical Verification for Knowledge-based Visual Question Generation.** *Xumeng Liu and Wenya Guo and Ying Zhang and Xubo Liu and Yu Zhao and Shenglong Yu and Xiaojie Yuan*. LREC/COLING, 2024. [[Paper]](https://aclanthology.org/2024.lrec-main.943.pdf) [[Code]]( https://github.com/michelle19l/LV2-Net)
+2. **Knowledge-Guided Cross-Topic Visual Question Generation.** *Hongfei Liu and Guohua Wang and Jiayuan Xie and Jiali Chen and Wenhao Fang and Yi Cai*. LREC/COLING, 2024. [[Paper]](https://aclanthology.org/2024.lrec-main.861.pdf)
 ## Hybrid NQG Models
 1. **MultiQG-TI: Towards Question Generation from Multi-modal Sources.** *Zichao Wang and Richard G. Baraniuk*. ACL, 2023. [[Paper]](https://aclanthology.org/2023.bea-1.55.pdf) [[Code]](https://anonymous.4open.science/r/multimodal-QG-47F2/)
 2. **ConVQG: Contrastive Visual Question Generation with Multimodal Guidance.** *Li Mi and Syrielle Montariol and Javiera Castillo Navarro and Xianjie Dai and Antoine Bosselut and Devis Tuia*. AAAI, 2024. [[Paper]](https://arxiv.org/pdf/2402.12846.pdf)
