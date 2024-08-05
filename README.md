@@ -20,10 +20,13 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
       - [Transformer-based](#transformer-based2)
     - [Graph-based Models](#graph-based-models)
     - [Pre-trained Seq2Seq Models](#pre-trained-seq2seq-models2)
+      - [PLMs-based](#plms-based2)
+      - [LLMs-based](#llms-based2)
     - [Visual2Seq Models](#visual2seq-models)
       - [CNN-based](#cnn-based)
       - [GNN-based](#gnn-based)
       - [Generative Networks-based](#generative-networks-based)
+      - [PLMs-based](#plms-based3)
   - [Hybrid NQG](#hybrid-nqg-models)
     
 - Benchmark Datasets
