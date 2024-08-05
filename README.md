@@ -70,6 +70,7 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 5. **Improving Question Generation With to the Point Context.** *Jingjing Li and Yifan Gao and Lidong Bing and Irwin King and Michael R. Lyu*. EMNLP, 2019. [[Paper]](https://aclanthology.org/D19-1317.pdf)
 6. **Improving Neural Question Generation Using Answer Separation.** *Yanghoon Kim and Hwanhee Lee and Joongbo Shin and Kyomin Jung*. AAAI, 2019. [[Paper]](https://arxiv.org/pdf/1809.02393.pdf)
 7. **Capturing Greater Context for Question Generation.** *Luu Anh Tuan and Darsh J. Shah and Regina Barzilay*. AAAI, 2020. [[Paper]](https://arxiv.org/pdf/1910.10274.pdf)
+8. **Multi-Hop Reasoning Question Generation and Its Application.** *Jianxing Yu and Qinliang Su and Xiaojun Quan and Jian Yin*. IEEE Trans. Knowl. Data Eng., 2023. [[Paper]](https://ieeexplore.ieee.org/document/9404866) 
 <a id="transformer-based2"></a>
 #### Transformer-based
 1. **Cross-Lingual Training for Automatic Question Generation.** *Vishwajeet Kumar and Nitish Joshi and Arijit Mukherjee and Ganesh Ramakrishnan and Preethi Jyothi*. ACL, 2019. [[Paper]](https://aclanthology.org/P19-1481.pdf) [[Code]](https://github.com/vishwajeet93/clqg)
@@ -81,6 +82,7 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 3. **Multi-hop Question Generation with Graph Convolutional Network.** *Dan Su and Yan Xu and Wenliang Dai and Ziwei Ji and Tiezheng Yu and Pascale Fung*. EMNLP Findings, 2020. [[Paper]](https://aclanthology.org/2020.findings-emnlp.416.pdf) [[Code]](https://github.com/HLTCHKUST/MulQG)
 4. **Iterative GNN-based decoder for question generation.** *Fei, Zichu and Zhang, Qi and Zhou, Yaqian*. EMNLP, 2021. [[Paper]](https://aclanthology.org/2021.emnlp-main.201.pdf) [[Code]](https://github.com/sion-zcfei/IGND)
 5. **CQG: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation.** *Zichu Fei and Qi Zhang and Tao Gui and Di Liang and Sirui Wang and Wei Wu and Xuanjing Huang*. ACL, 2022. [[Paper]](https://aclanthology.org/2022.acl-long.475.pdf) [[Code]](https://github.com/sion-zcfei/CQG)
+6. **Graph augmented sequence-to-sequence model for neural question generation.** *Hui Ma and Jian Wang and Hongfei Lin and Bo Xu*. Appl. Intell., 2023. [[Paper]](https://dl.acm.org/doi/abs/10.1007/s10489-022-04260-2)
 <a id="pre-trained-seq2seq-models2"></a>
 ### Pre-trained Seq2Seq Models
 #### PLMs-based
