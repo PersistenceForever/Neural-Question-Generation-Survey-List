@@ -83,6 +83,7 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 5. **CQG: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation.** *Zichu Fei and Qi Zhang and Tao Gui and Di Liang and Sirui Wang and Wei Wu and Xuanjing Huang*. ACL, 2022. [[Paper]](https://aclanthology.org/2022.acl-long.475.pdf) [[Code]](https://github.com/sion-zcfei/CQG)
 <a id="pre-trained-seq2seq-models2"></a>
 ### Pre-trained Seq2Seq Models
+#### PLMs-based
 1. **A Recurrent BERT-based Model for Question Generation.** *Ying-Hong Chan and Yao-Chung Fan*. MRQA@EMNLP, 2019. [[Paper]](https://aclanthology.org/D19-5821.pdf)
 2. **Unified Language Model Pre-training for Natural Language Understanding and Generation.** *Dong, Li and Yang, Nan and Wang, Wenhui and Wei, Furu and Liu, Xiaodong and Wang, Yu and Gao, Jianfeng and Zhou, Ming and Hon, Hsiao-Wuen*. NeurIPS, 2019. [[Paper]](https://arxiv.org/pdf/1905.03197.pdf) [[Code]](https://github.com/microsoft/unilm)
 3. **MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers.** *Wenhui Wang and Furu Wei and Li Dong and Hangbo Bao and Nan Yang and Ming Zhou*. NeurIPS, 2020. [[Paper]](https://proceedings.neurips.cc/paper/2020/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
@@ -92,6 +93,9 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 7. **Diversity Enhanced Narrative Question Generation for Storybooks.** *Hokeun Yoon and JinYeong Bak*. EMNLP, 2023. [[Paper]](https://arxiv.org/pdf/2310.16446.pdf) [[Code]](https://github.com/hkyoon95/mQG)
 8. **Modeling What-to-ask and How-to-ask for Answer-unaware Conversational Question Generation.** *Xuan Long Do and Bowei Zou and Shafiq R. Joty and Anh Tran Tai and Liangming Pan and Nancy F. Chen and Ai Ti Aw*. ACL, 2023. [[Paper]](https://arxiv.org/pdf/2305.03088.pdf) [[Code]](https://github.com/dxlong2000/SG-CQG)
 9. **Improving Question Generation with Multi-level Content Planning.** *Zehua Xia and Qi Gou and Bowen Yu and Haiyang Yu and Fei Huang and Yongbin Li and Cam-Tu Nguyen*. EMNLP Findings, 2023. [[Paper]](https://aclanthology.org/2023.findings-emnlp.57.pdf) [[Code]](https://github.com/zeaver/MultiFactor)
+#### LLMs-based
+1. **Towards Human-Like Educational Question Generation with Large Language Models.** *Zichao Wang and Jakob Valdez and Debshila Basu Mallick and Richard G. Baraniuk*. AIED, 2022. [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-11644-5_13)
+2. **How Teachers Can Use Large Language Models and Bloom's Taxonomy to Create Educational Quizzes.** *Sabina Elkins and Ekaterina Kochmar and Jackie C. K. Cheung and Iulian Serban*. EAAI, 2024. [[Paper]](https://arxiv.org/pdf/2401.05914)
 ### Visual2Seq Models
 #### CNN-based
 1. **Visual question generation as dual task of visual question answering.** *Li, Yikang and Duan, Nan and Zhou, Bolei and Chu, Xiao and Ouyang, Wanli and Wang, Xiaogang and Zhou, Ming*. CVPR, 2018. [[Paper]](https://ieeexplore.ieee.org/document/8578738)
