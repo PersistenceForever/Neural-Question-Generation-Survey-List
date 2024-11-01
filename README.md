@@ -1,5 +1,5 @@
 # Neural Question Generation Survey
-We summarize related research papers and resources for neural question generation (NQG). We categorize NQG into structured NQG, unstructured NQG and hybrid NQG, as illustrated in the subsequent figure.
+We summarize related papers and resources for neural question generation (NQG). We categorize NQG into structured NQG, unstructured NQG and hybrid NQG, as illustrated in the subsequent figure.
 <img src="https://github.com/PersistenceForever/Neural-Question-Generation-Survey-List/blob/main/Taxonomy%20of%20NQG.png" with="10">
 
 We  present a summary of the datasets widely used in NQG tasks, as shown in the Table  below.
