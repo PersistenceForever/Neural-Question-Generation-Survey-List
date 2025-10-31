@@ -129,10 +129,50 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
 1. **Look before You Leap: Dual Logical Verification for Knowledge-based Visual Question Generation.** *Xumeng Liu and Wenya Guo and Ying Zhang and Xubo Liu and Yu Zhao and Shenglong Yu and Xiaojie Yuan*. LREC/COLING, 2024. [[Paper]](https://aclanthology.org/2024.lrec-main.943.pdf) [[Code]]( https://github.com/michelle19l/LV2-Net)
 2. **Knowledge-Guided Cross-Topic Visual Question Generation.** *Hongfei Liu and Guohua Wang and Jiayuan Xie and Jiali Chen and Wenhao Fang and Yi Cai*. LREC/COLING, 2024. [[Paper]](https://aclanthology.org/2024.lrec-main.861.pdf)
 ## Hybrid NQG Models
+<a id="pvlms-based"></a>
+### PVLMs-based
 1. **MultiQG-TI: Towards Question Generation from Multi-modal Sources.** *Zichao Wang and Richard G. Baraniuk*. ACL, 2023. [[Paper]](https://aclanthology.org/2023.bea-1.55.pdf) [[Code]](https://anonymous.4open.science/r/multimodal-QG-47F2/)
-2. **ConVQG: Contrastive Visual Question Generation with Multimodal Guidance.** *Li Mi and Syrielle Montariol and Javiera Castillo Navarro and Xianjie Dai and Antoine Bosselut and Devis Tuia*. AAAI, 2024. [[Paper]](https://arxiv.org/pdf/2402.12846.pdf)
-3. **A Unified Framework for Contextual and Factoid Question Generation.** *Chenhe Dong and Ying Shen and Shiyang Lin and Zhenzhou Lin and Yang Deng*. TKDE, 2024. [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10136803)
-4. **Synthetic Multimodal Question Generation.** *Wu, Ian and Jayanthi, Sravan and Viswanathan, Vijay and Rosenberg, Simon and Pakazad, Sina and Wu, Tongshuang and Neubig, Graham*. Arxiv, 2024. [[Paper]](https://arxiv.org/pdf/2407.02233)
+2. **A Unified Framework for Contextual and Factoid Question Generation.** *Chenhe Dong and Ying Shen and Shiyang Lin and Zhenzhou Lin and Yang Deng*. TKDE, 2024. [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10136803)
+3. **Ask Questions With Double Hints: Visual Question Generation With Answer-Awareness and Region-Reference.** *Kai Shen and Lingfei Wu and Siliang Tang and Fangli Xu and Bo Long and Yueting Zhuang and Jian Pei*. IEEE Trans. Pattern Anal. Mach. Intell., 2024. [[Paper]](https://arxiv.org/abs/2407.05100)
+<a id="mllms-based"></a>
+### MLLMs-based
+<a id="in_context_learning"></a>
+#### In-Context Learning
+1. **VL-ICL Bench: The Devil in the Details of Multimodal In-Context Learning.** *Yongshuo Zong and Ondrej Bohdal and Timothy M. Hospedales*. ICLR, 2025. [[Paper]](https://arxiv.org/abs/2403.13164)
+2. **Flamingo: a Visual Language Model for Few-Shot Learning.** *Jean-Baptiste Alayrac and Jeff Donahue and Pauline Luc and Antoine Miech and Iain Barr and so on*. NeurIPS, 2022. [[Paper]](https://arxiv.org/abs/2204.14198)
+<a id="RAG"></a>
+#### Retrieval Augmented Generation
+1. **MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text.** *Wenhu Chen and Hexiang Hu and Xi Chen and Pat Verga and William W. Cohen*. EMNLP, 2022. [[Paper]](https://arxiv.org/abs/2210.02928)
+2. **Wiki-LLaVA: Hierarchical Retrieval-Augmented Generation for Multimodal LLMs.** *Davide Caffagni and Federico Cocchi and Nicholas Moratelli and Sara Sarto and Marcella Cornia and Lorenzo Baraldi and Rita Cucchiara*. CVPR Workshop, 2024. [[Paper]](https://arxiv.org/abs/2404.15406)
+3. **Enhanced Multimodal RAG-LLM for Accurate Visual Question Answering.** *Junxiao Xue and Quan Deng and Fei Yu and Yanhao Wang and Jun Wang and Yuehua Li*. Arxiv, 2024. [[Paper]](https://arxiv.org/abs/2412.20927)
+4. **Synthetic Multimodal Question Generation.** *Ian Wu and Sravan Jayanthi and Vijay Viswanathan and Simon Rosenberg and Sina Pakazad and Tongshuang Wu and Graham Neubig*. EMNLP, 2024. [[Paper]](https://arxiv.org/abs/2407.02233)
+<a id="SFT"></a>
+#### Supervised Fine-tuning
+1. **InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning.** *Wenliang Dai and Junnan Li and Dongxu Li and Anthony Meng Huat Tiong and Junqi Zhao and Weisheng Wang and Boyang Li and Pascale Fung and Steven C. H. Hoi*. NeurIPS, 2023. [[Paper]](https://arxiv.org/abs/2305.06500)
+2. **Visual Instruction Tuning.** *Haotian Liu and Chunyuan Li and Qingyang Wu and Yong Jae Lee*. NeurIPS, 2023. [[Paper]](https://arxiv.org/abs/2304.08485)
+3. **MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models.** *Deyao Zhu and Jun Chen and Xiaoqian Shen and Xiang Li and Mohamed Elhoseiny*. ICLR, 2024. [[Paper]](https://arxiv.org/abs/2304.10592)
+4. **ShareGPT4V: Improving Large Multi-modal Models with Better Captions.** *Lin Chen and Jinsong Li and Xiaoyi Dong and Pan Zhang and Conghui He and Jiaqi Wang and Feng Zhao and Dahua Lin*. ECCV, 2024. [[Paper]](https://arxiv.org/abs/2311.12793)
+5. **Vision-Flan: Scaling Human-Labeled Tasks in Visual Instruction Tuning.** *Zhiyang Xu and Chao Feng and Rulin Shao and Trevor Ashby and Ying Shen and Di Jin and Yu Cheng and Qifan Wang and Lifu Huang*. ACL, 2024. [[Paper]](https://arxiv.org/abs/2402.11690)
+<a id="RL"></a>
+#### Reinforcement Learning
+1. **RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-Grained Correctional Human Feedback.** *Tianyu Yu and Yuan Yao and Haoye Zhang and Taiwen He and Yifeng Han and so on*. CVPR, 2024. [[Paper]](https://arxiv.org/abs/2312.00849)
+2. **Aligning Large Multimodal Models with Factually Augmented RLHF.** *Zhiqing Sun and Sheng Shen and Shengcao Cao and Haotian Liu and Chunyuan Li and Yikang Shen and so on*. ACL, 2024. [[Paper]](https://arxiv.org/abs/2309.14525)
+3. **RLAIF-V: Open-Source AI Feedback Leads to Super GPT-4V Trustworthiness.** *Tianyu Yu and Haoye Zhang and Qiming Li and Qixin Xu and Yuan Yao and Da Chen and Xiaoman Lu and so on*. CVPR, 2025. [[Paper]](https://arxiv.org/abs/2405.17220)
+4. **QuesGenie: Intelligent Multimodal Question Generation.** *Ahmed Mubarak and Amna Ahmed and Amira Nasser and Aya Mohamed and Fares El-Sadek and Mohammed Ahmed and Ahmed Salah and Youssef Sobhy*. Arxiv, 2025. [[Paper]](https://www.arxiv.org/abs/2509.03535)
+<a id="tool_augmented"></a>
+#### Tool-augmented
+1. **MM-REACT: Prompting ChatGPT for Multimodal Reasoning and Action.** *Zhengyuan Yang and Linjie Li and Jianfeng Wang and Kevin Lin and Ehsan Azarnasab and Faisal Ahmed and Zicheng Liu and Ce Liu and Michael Zeng and Lijuan Wang*. Arxiv, 2023. [[Paper]](https://arxiv.org/abs/2303.11381)
+2. **LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents.** *Shilong Liu and Hao Cheng and Haotian Liu and Hao Zhang and Feng Li and Tianhe Ren and so on*. ECCV, 2024. [[Paper]](https://arxiv.org/abs/2311.05437)
+<a id="reasoning_driven"></a>
+#### Reasoning-driven
+1. **Visual CoT: Unleashing Chain-of-Thought Reasoning in Multi-Modal Language Models.** *Hao Shao and Shengju Qian and Han Xiao and Guanglu Song and Zhuofan Zong and Letian Wang and Yu Liu and Hongsheng Li*. Arxiv, 2024. [[Paper]](https://arxiv.org/pdf/2403.16999v1)
+2. **Improve Vision Language Model Chain-of-thought Reasoning.** *Ruohong Zhang and Bowen Zhang and Yanghao Li and Haotian Zhang and Zhiqing Sun and Zhe Gan and Yinfei Yang and Ruoming Pang and Yiming Yang*. ACL, 2025. [[Paper]](https://arxiv.org/abs/2410.16198)
+3. **Advancing Large Multi-modal Models with Explicit Chain-of-Reasoning and Visual Question Generation.** *Kohei Uehara and Nabarun Goswami and Hanqin Wang and Toshiaki Baba and Kohtaro Tanaka and Tomohiro Hashimoto and so on*. Arxiv, 2024. [[Paper]](https://arxiv.org/abs/2401.10005)
+<a id="agent_based"></a>
+#### Agent-based
+1. **OmAgent: A Multi-modal Agent Framework for Complex Video Understanding with Task Divide-and-Conquer.** *Lu Zhang and Tiancheng Zhao and Heting Ying and Yibo Ma and Kyusong Lee*. EMNLP, 2024. [[Paper]](https://arxiv.org/abs/2406.16620)
+2. **MMCTAgent: Multi-modal Critical Thinking Agent Framework for Complex Visual Reasoning.** *Somnath Kumar and Yash Gadhia and Tanuja Ganu and Akshay Nambi*. Arxiv, 2024. [[Paper]](https://arxiv.org/abs/2405.18358)
+3. **MMedAgent: Learning to Use Medical Tools with Multi-modal Agent.** *Binxu Li and Tiankai Yan and Yuanting Pan and Jie Luo and Ruiyang Ji and Jiayuan Ding and Zhe Xu and so on*. Findings of EMNLP, 2024. [[Paper]](https://aclanthology.org/2024.findings-emnlp.510/)
 ## Knowledge Base-based Datasets
 1. **WebQuestions.** Introduced by *Vishwajeet Kumar and Yuncheng Hua and Ganesh Ramakrishnan and Guilin Qi and Lianli Gao and Yuan-Fang Li* in **Difficulty-controllable multi-hop question generation from knowledge graphs.** ISWC, 2019. [[Paper]](https://dl.acm.org/doi/10.1007/978-3-030-30793-6_22) [[Data]](https://github.com/liyuanfang/mhqg) [[Code]](https://github.com/liyuanfang/mhqg)
 2. **PathQuestions.** Introduced by *Mantong Zhou and Minlie Huang and Xiaoyan Zhu* in **An Interpretable Reasoning Network for Multi-Relation Question Answering.** COLING, 2018. [[Paper]](https://aclanthology.org/C18-1171.pdf) [[Data]](https://github.com/zmtkeke/IRN) [[Code]](https://github.com/zmtkeke/IRN)
