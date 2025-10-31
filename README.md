@@ -28,6 +28,8 @@ We  present a summary of the datasets widely used in NQG tasks, as shown in the 
       - [Generative Networks-based](#generative-networks-based)
       - [PLMs-based](#plms-based3)
   - [Hybrid NQG](#hybrid-nqg-models)
+    - [PVLMs-based](#pvlms-based)
+    - [MLLMs-based](#mllms-based)
     
 - Benchmark Datasets
   - [Knowledge Base-based Datasets](#knowledge-base-based-datasets)
